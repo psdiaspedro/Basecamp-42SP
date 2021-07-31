@@ -1,21 +1,35 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_is_negative.c                                   :+:      :+:    :+:   */
+/*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: paugusto <paugusto@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/07/30 22:44:58 by paugusto          #+#    #+#             */
-/*   Updated: 2021/07/30 22:45:00 by paugusto         ###   ########.fr       */
+/*   Created: 2021/07/30 22:49:20 by paugusto          #+#    #+#             */
+/*   Updated: 2021/07/30 22:49:22 by paugusto         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <limits.h>
 #include <unistd.h>
+#include <stdio.h>
 
-void	ft_is_negative(int n)
+void	ft_putnbr(int nb);
+
+int	main(void)
 {
-	if (n >= 0)
-		write(1, "S", 1);
-	else
-		write(1, "N", 1);
+	write(1, "-1: ", 4);
+	ft_putnbr(-1);
+	write(1, "\n1: ", 4);
+	ft_putnbr(1);
+	write(1, "\n-10: ", 6);
+	ft_putnbr(-10);
+	write(1, "\n10: ", 5);
+	ft_putnbr(10);
+	write(1, "\nINT_MAX: ", 10);
+	ft_putnbr(INT_MAX);
+	write(1, "\nINT_MIN: ", 10);
+	ft_putnbr(INT_MIN);
+	write(1, "\n", 1);
+	return (0);
 }

@@ -1,21 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_is_negative.c                                   :+:      :+:    :+:   */
+/*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: paugusto <paugusto@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/07/30 22:44:58 by paugusto          #+#    #+#             */
-/*   Updated: 2021/07/30 22:45:00 by paugusto         ###   ########.fr       */
+/*   Created: 2021/07/30 22:50:46 by paugusto          #+#    #+#             */
+/*   Updated: 2021/07/30 22:50:50 by paugusto         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+void	ft_print_comb2(void);
 
-void	ft_is_negative(int n)
+int	main(void)
 {
-	if (n >= 0)
-		write(1, "S", 1);
-	else
-		write(1, "N", 1);
+	ft_print_comb2();
+	return (0);
 }

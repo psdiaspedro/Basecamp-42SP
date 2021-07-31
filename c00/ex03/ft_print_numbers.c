@@ -1,8 +1,20 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_print_numbers.c                                 :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: paugusto <paugusto@student.42sp.org.br>    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/07/30 22:44:45 by paugusto          #+#    #+#             */
+/*   Updated: 2021/07/30 22:47:53 by paugusto         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include <unistd.h>
 
-void ft_print_numbers(void)
+void	ft_print_numbers(void)
 {
-	int num;
+	int	num;
 
 	num = 48;
 	while (num <= 57)
