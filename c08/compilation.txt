@@ -1,0 +1,24 @@
+//FASES DO GCC
+
+ 1 - PRE-PROCESSAMENTO - CPP
+
+	#include - é um comando dessa fase
+
+2 - compilação de cada arquivo .c
+
+
+3 - linkagem
+
+	vai chamar cada função em cada arquivo
+
+dicas
+
+	caso de erro, fazer a alteração e
+	depois pode só recompilar o arquivo modificado,
+	ganhando tempo.
+
+
+#include <stdio.h>
+	-basicamente o arquivo que esta entre <> (ou """) substitui
+	o include
+	-se for na mesma pasta usar o ""
