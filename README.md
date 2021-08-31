@@ -1,5 +1,5 @@
 # Basecamp-42SP
-This repository contains coding developed at 42saopaulo's C bootcamp (also known as Piscine), from 24/may/2021 to 20/jun/2021.
+This repository contains coding developed at 42saopaulo's C bootcamp (also known as Piscine) from 24/may/2021 to 20/jun/2021.
 
 ## About 42
     42 is a global education initiative that proposes a new way of learning technology: no teachers,
@@ -38,6 +38,6 @@ This repository contains coding developed at 42saopaulo's C bootcamp (also known
       common work methodology that allows all team members to contribute to the project.
 
     # Time management and resiliency
-      The school is open 24/7. Thus, the so-called "pisciners" are free to work whenever
-      they want, which demands excellent time management skills and resiliency for not
-      "drowning" amid the massive load of work demanded by the non-stop 26-day program.
+      The school is open 24/7. We are free to work whenever	we want, which demands excellent
+	  time management skills and resiliency for not "drowning" amid the massive load of work demanded
+	  by the non-stop 26-day program.
